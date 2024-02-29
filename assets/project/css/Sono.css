@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Sono";
+    src: url(../font/Sono-Regular.woff2);
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sono";
+    src: url(../font/Sono-Bold.woff2);
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+}

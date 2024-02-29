@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /assets/bootstrap
+Disallow: /assets/bootstrap/css
+Disallow: /assets/bootstrap/font
+Disallow: /assets/bootstrap/js
+Disallow: /assets/project
+Disallow: /assets/project/css
+Disallow: /assets/project/font
+Disallow: /assets/project/img
+Disallow: /assets/project/js

@@ -1,0 +1,45 @@
+@import url(Open-Sans.css);
+@import url(Sono.css);
+
+:root {
+    --purple : #3e363f;
+    --orange : #dd403a;
+    --green : #b8b42d;
+}
+
+html,
+body,
+input,
+select,
+textarea,
+button {
+    font-family: "Open Sans", sans-serif;
+}
+
+.monospace {
+    font-family: "Sono", monospace;
+}
+
+.toast {
+    display: block !important;
+    animation: toast 3s ease-in-out;
+}
+
+@keyframes toast {
+    0% {
+        /* opacity: 0; */
+        transform: translate(-50%, calc(100% - 1rem));
+    }
+    10% {
+        /* opacity: 1; */
+        transform: translate(-50%, calc(0% - 1rem));
+    }
+    90% {
+        /* opacity: 1; */
+        transform: translate(-50%, calc(0% - 1rem));
+    }
+    100% {
+        /* opacity: 0; */
+        transform: translate(-50%, calc(100% - 1rem));
+    }
+}
